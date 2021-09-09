@@ -15,7 +15,7 @@ jobs:
             username: ${{ secrets.DOCKER_USERNAME }}
             password: ${{ secrets.DOCKER_PASSWORD }}
             registry: docker.io
-            repository: abdelhamidbassa/Development
+            repository: abdelhamidbassa/development
             tag_with_sha: true
         - name: SonarCloud Scan
           uses: SonarSource/sonarcloud-github-action@master
